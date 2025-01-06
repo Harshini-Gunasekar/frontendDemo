@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #0077b6;
+  color: white;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 20px;
+  min-height: 70vh;
+  background-color: #f0f8ff;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #03045e;
+  color: white;
+}
